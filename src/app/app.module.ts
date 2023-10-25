@@ -1,8 +1,11 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppComponent } from './app.component';
-import { ContadorComponent } from './contador.component';
+import { ContadorComponent } from './contador/contador.component';
+import { heroesModule } from './heroes/listado/heroes.module';
+
+
+
 
 @NgModule({
   declarations: [
@@ -10,7 +13,8 @@ import { ContadorComponent } from './contador.component';
     ContadorComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    heroesModule
   ],
   providers: [],
   bootstrap: [AppComponent]

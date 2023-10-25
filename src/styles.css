@@ -1,5 +1,5 @@
 * {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: consolas;
     font-weight: 200;
   }
  
@@ -38,4 +38,12 @@
   
   .p-1 {
     padding: 1px;
+  }
+  .divp{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+
   }
