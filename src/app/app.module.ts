@@ -4,6 +4,7 @@ import { AppComponent } from './app.component';
 import { ContadorComponent } from './contador/contador.component';
 import { heroesModule } from './heroes/listado/heroes.module';
 import { DbzModule } from './dbz/dbz.module';
+import { DbzService } from './dbz/services/dbz.service';
 
 
 
@@ -17,7 +18,6 @@ AppComponent
     heroesModule,
     DbzModule
   ],
-  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
